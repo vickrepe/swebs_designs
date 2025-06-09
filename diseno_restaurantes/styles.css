@@ -45,6 +45,7 @@ body {
   display: flex;
   list-style: none;
   gap: 30px;
+  margin-right: 60px;
 }
 
 .nav-menu a {
@@ -99,15 +100,18 @@ body {
 }
 
 /* Hero Section */
+
 .hero {
-  background: linear-gradient(135deg, #f9ca24 0%, #f0932b 100%);
-  min-height: 500px;
-  position: relative;
   display: flex;
-  align-items: center;
-  padding: 40px 20px;
-  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 5% 0 5%; 
+  height: 100vh;
+  background: linear-gradient(135deg, #f9ca24 0%, #f0932b 100%);
+  overflow: hidden;
+  position: relative;
 }
+
 
 .hero-content {
   max-width: 1200px;
@@ -123,7 +127,7 @@ body {
 }
 
 .hero-text h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: #333;
   margin-bottom: 20px;
   font-weight: normal;
@@ -146,6 +150,15 @@ body {
   cursor: pointer;
   font-weight: bold;
 }
+.hero-image {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+
+
+
 
 /* Features Section */
 .features {
