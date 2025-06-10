@@ -157,9 +157,6 @@ body {
   text-align: center; 
 }
 
-
-
-
 /* Features Section */
 .features {
   background: #f8f9fa;
@@ -350,6 +347,7 @@ body {
 
 .delivery-image {
   position: relative;
+  
 }
 
 .delivery-bg-image {
@@ -357,7 +355,6 @@ body {
   height: 400px;
   border-radius: 10px;
   object-fit: cover;
-  filter: blur(2px);
 }
 
 .delivery-text {
